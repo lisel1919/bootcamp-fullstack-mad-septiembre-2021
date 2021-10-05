@@ -1,0 +1,152 @@
+header{
+    position: sticky;top: 0;
+    background-color: #efececb0;
+    z-index: 1;
+}
+main{
+    background-color:rgba(98, 146, 154, .5);
+   }
+footer{
+    background-color:rgba(129, 116, 116, 0.288);
+    display: flex;
+}
+
+.menu{
+    font-family: 'Archivo', Arial, sans-serif;
+    font-size: 25px;
+    font-weight:500;
+    text-decoration: none;
+    color: #aa530e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* .container{
+display: inline;
+margin: 10px;
+} */
+.first-div{
+    background-color: #e2ded3;
+    /* clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);     */
+    height: 150px;
+    width: 150px;
+    border: solid #857671;
+    box-shadow: 10px 5px 10px #4e413b;
+}
+.second-div{
+    background: linear-gradient(to right, rgb(209, 145, 60), rgb(255, 209, 148));
+    height: 300px;
+    width: 100px;
+    border: outset #4e413b;
+    box-shadow: 5px 4px 2px 3px #5c5757;
+    /*box-shadow: outset 15px 10px gold;*/
+}
+.third-div{
+    background-image: url("https://image.freepik.com/foto-gratis/oscuro-telon-fondo-decorativo-retro-naturales_1253-335.jpg");
+    height: 450px;
+    width: 450px;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.third-div:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.wood-text-1{
+    font-family:'Archivo', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+    color:#0f0902;
+    position: relative;
+    top: 40%;
+    text-align:center;
+}
+
+.wood-text-1:hover {
+    font-size:60px;
+    color: blanchedalmond;
+    font-weight: 500;
+    transition: all 800ms;
+    font-size-adjust: 20px;
+}
+
+.fourth-div{
+    background-image: url("https://images.pexels.com/photos/7599715/pexels-photo-7599715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 450px;
+    width: 450px;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+.fourth-div:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.wood-text-2{
+    font-family:'Archivo', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+    color:#0f0902;
+    position: relative;
+    top: 40%;
+    text-align:center;
+}
+.wood-text-2:hover {
+    font-size:59px;
+    color:firebrick;
+    font-weight: 400;
+    transition: all 800ms;
+    font-size-adjust: 20px;
+}
+.fifth-div{
+    background-image: url("https://img.freepik.com/foto-gratis/material-fondo-textura-tablon-madera_53876-31378.jpg?size=626&ext=jpg&ga=GA1.2.840935399.1632835299");
+    height: 450px;
+    width: 450px;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+.fifth-div:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.wood-text-3{
+    font-family:'Archivo', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+    color:#0f0902;
+    position: relative;
+    top: 40%;
+    text-align:center;
+}
+.wood-text-3:hover {
+    font-size:60px;
+    color: blanchedalmond;
+    font-weight: 500;
+    transition: all 800ms;
+    font-size-adjust: 20px;
+}
+
+.footer-sn{
+    background-image: url("https://banner2.cleanpng.com/20180522/gxw/kisspng-facebook-like-button-emoticon-emoji-like-fb-5b03fc252c7de6.5239451515269878131823.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+}
+.footer-sn-2{
+    background-image: url("https://banner2.cleanpng.com/20180319/yeq/kisspng-social-media-computer-icons-tulane-university-face-drawing-vector-twitter-5ab02d6b2d2322.1683580215214954031849.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+}

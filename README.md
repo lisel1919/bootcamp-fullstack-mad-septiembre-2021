@@ -15,3 +15,4 @@ Main repository for fullstack exercises
 
 1. [Git](./materials/1-GIT)
 2. [HTML y CSS](./materials/2-HTML-CSS)
+3. [JS](./materials/3-JS)
